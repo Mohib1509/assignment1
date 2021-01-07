@@ -52,13 +52,40 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
 }
+.one-third-width{
+    width: 25%;;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
 .half-width img{
     width: 100%;
 }
+.one-third-width img{
+    width: 100%
+}
+#image-in-middle{
+    position: relative;
+    right: 80px;
+    top: 40px;  
+}
+#bam{
+    position: relative;
+    left: 120px;
+}
+#dan{
+    position: relative;
+    right: 120px;
+}
+#third-part{
+    height: 400px;
+    background-image: url("images/backgroundimage3.jpg");
+   background-repeat: no-repeat;
+}
+
 .Orange-highlight{
     color: orange;
-    line-height: 20px;
-    
+    line-height: 20px; 
 }
 .link-button{
     text-decoration: none;
